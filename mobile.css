@@ -1,0 +1,118 @@
+@media screen and (max-width: 776px) {
+  .firstSection {
+    flex-direction: column;
+    margin: 50px 8px;
+  }
+  .firstSection > div {
+    width: 90%;
+  }
+  .leftSection {
+    font-size: 2rem;
+  }
+  .leftSection .btn {
+    font-size: 15px;
+  }
+  .leftSection .buttons {
+    padding: 40px 5px;
+  }
+  main hr {
+    margin: 35px 40px;
+  }
+  .secondSection .box {
+    width: 2px;
+    height: 77vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .secondSection {
+    max-width: 70vw;
+    height: 120vh;
+  }
+  .secondSection .vertical {
+    height: 1px;
+    width: 50px;
+    background-color: white;
+    margin: 0px 4px;
+  }
+
+  .image-top {
+    width: 50px;
+    position: relative;
+    top: -33px;
+    left: -56px;
+  }
+  .vertical-title {
+    position: relative;
+    top: -78px;
+    font-size: 15px;
+    left: 56px;
+    width: 160px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: -80px;
+    left: 127px;
+    color: gray;
+    width: 150px;
+    font-size: 11px;
+  }
+  .footer ul li {
+    list-style: none;
+    padding: 2px 10px;
+  }
+  .footer {
+    font-size: 15px;
+    padding: 23px 20px;
+  }
+
+  footer ul li:hover {
+    color: rgb(144, 144, 224);
+    font-size: 15px;
+    cursor: pointer;
+  }
+  footer .footer-right {
+    padding: 10px 0;
+  }
+  .footer-fourth {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  .right ul {
+    display: none;
+  }
+
+  .hamburger.invert {
+    position: absolute;
+    right: 10px;
+  }
+  img.phonenav.invert {
+    width: 35px;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .left {
+    font-size: 1.5rem;
+    padding: 10px 18px;
+  }
+
+  .close {
+    position: absolute;
+    right: 7px;
+    top: 20px;
+    display: none;
+  }
+
+  .close img {
+    width: 44px;
+  }
+}
